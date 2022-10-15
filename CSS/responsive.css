@@ -1,0 +1,157 @@
+@media (max-width: 1199px) {
+  .navbar-expand-lg .navbar-nav {
+    align-items: center;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 10px 0;
+    font-size: 20px;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  .infocontainer {
+    flex-direction: column-reverse;
+    align-items: center;
+    height: 100vh;
+  }
+  .infocontainer .devinfo .hello span {
+    font-size: 60px;
+  }
+
+  .infocontainer .devinfo .name {
+    font-size: 65px;
+  }
+
+  .infocontainer .devinfo .about {
+    font-size: 28px;
+  }
+  .infocontainer .devinfo .moreabout {
+    font-size: 18px;
+  }
+  .infocontainer .devpic img {
+    height: 30vh;
+  }
+
+  .projects .items .project .left {
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .projects .items .project .left img {
+    height: 20vh;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer .copyright {
+    margin: 10px;
+  }
+
+  .projects .items .project {
+    flex-direction: column;
+  }
+
+  .projects .items .project:hover {
+    display: flex;
+    margin: 20px 0;
+    animation: zoom-in-zoom-out 1s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(-1, 1);
+    }
+    50% {
+      transform: scale(-1.5, -1.5);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+}
+
+@media (max-width: 553px) {
+  .footer .social-icon {
+    margin: 10px;
+    display: inline;
+  }
+
+  .blog h1 {
+    font-size: 45px;
+  }
+
+  .clients h1 {
+    font-size: 45px;
+  }
+
+  .projects h1 {
+    font-size: 45px;
+  }
+
+  #contact h1 {
+    font-size: 45px;
+  }
+
+  .myintro h1 {
+    font-size: 45px;
+  }
+
+  .gallary h1 {
+    font-size: 45px;
+  }
+  .contact form {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .projects .items .project:hover {
+    display: flex;
+    margin: 20px 0;
+    animation: zoom-in-zoom-out 1s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(-1, 1);
+    }
+    50% {
+      transform: scale(-1.5, -1.5);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+}
+
+@media (max-width: 339px) {
+  .projects .items .project .left img {
+    height: 16vh;
+  }
+
+  .projects .items .project:hover {
+    display: flex;
+    margin: 20px 0;
+    animation: zoom-in-zoom-out 1s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(-1, 1);
+    }
+    50% {
+      transform: scale(-1.5, -1.5);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+}
